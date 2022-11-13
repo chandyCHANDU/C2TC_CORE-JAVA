@@ -11,6 +11,7 @@ public class Student implements Serializable {
 	@Id
 	private int studentId;
 	private String name;
+	
 	public int getStudentId()
 	{
 		return studentId;
